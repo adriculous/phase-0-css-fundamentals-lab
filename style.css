@@ -2,4 +2,47 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  overflow-x: hidden;
+}
+h1 {
+  text-align: center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav {
+  margin: 0 auto;
+  text-align: center;
+}
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #FAE4E0;
+}
+figcaption {
+  font-size: 14px;
+  text-align: center;
+}
+#featured-property p {
+  display: block;
+  margin: 0 auto;
+  width: 800px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+#details {
+  width: 100%;
+  padding: 0px 10px 0px 50px;
+  position: absolute;
+  background: #F2C2B8 repeat;
+}
+#details > div {
+  font-size: 14px;
+  float: left;
+  margin-left: 1px;
+  margin-right: 15.2%;
+  text-align: center;
+  max-width: 25%;
 }
